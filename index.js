@@ -12,6 +12,8 @@ const axios = require('axios').default;
 
 md.use(mdEmoji);
 
+const BLOG_HOST = `https://slim.netlify.app`;
+
 /* README Sections */
 const introTitle = generateTitle(2, `Hey :wave:, I'm ${generateLink('Stanley', 'https://stanleylim.me/')}`);
 const introDescription = `I'm currently a software engineer **${generateLink(
@@ -69,7 +71,7 @@ const factsConfigs = [
     `🔭 I’m currently working on [Cirrus](https://github.com/Spiderpig86/Cirrus).`,
     `🧐 Learning about **serverless architectures**, **distributed systems**, and a bit of **ML**.`,
     `👨‍💻 Most of my projects are available on [Github](https://github.com/Spiderpig86).`,
-    `📝 I regulary write articles on [my blog](https://spiderpig86.github.io/blog/).`,
+    `📝 I regulary write articles on [my blog](${BLOG_HOST}).`,
     `💬 Ping me about **react, koa, security, and cloud stuff**.`,
     `📙 Check out my [resume](https://www.stanleylim.me/resume/resume.pdf).`,
     `🎉 Fun Fact: 我也会讲中文。`,
@@ -161,7 +163,7 @@ const stats = `<img src="https://github-readme-stats.vercel.app/api?username=spi
 (async () => {
 
     // Get blog entries
-    const response = await axios.get('https://spiderpig86.github.io/blog/page-data/index/page-data.json');
+    const response = await axios.get(`${BLOG_HOST}/page-data/index/page-data.json`);
     const postData = response.data.result.data.allMarkdownRemark.edges;
     let posts = ``;
     
@@ -169,7 +171,7 @@ const stats = `<img src="https://github-readme-stats.vercel.app/api?username=spi
         const title = post.node.frontmatter.title;
         const date = post.node.frontmatter.date;
         const path = post.node.frontmatter.path;
-        posts += `<li><a target="_blank" href="https://spiderpig86.github.io/blog/${path}">${title} — ${date}</a></li>`;
+        posts += `<li><a target="_blank" href="${BLOG_HOST}${path}">${title} — ${date}</a></li>`;
     });
 
     const content = `${introTitle}\n
@@ -183,7 +185,7 @@ ${postsTitle}\n
     <summary>Explore</summary>
     ${posts}\n
 </details>\n
-<a target="_blank" href="https://spiderpig86.github.io/blog/">Read More</a>\n
+<a target="_blank" href="${BLOG_HOST}">Read More</a>\n
 ${toolsTitle}\n
 <p align="left">\n
     ${tools}\n
