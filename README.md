@@ -17,6 +17,7 @@
     <summary>Explore</summary>
     <li><a target="_blank" href="https://spiderpig86.github.io/blog//clickjacking-using-iframes-a-case-study">Clickjacking Using Iframes: A Case Study — July 12, 2020</a></li><li><a target="_blank" href="https://spiderpig86.github.io/blog//cobol---the-hottest-programming-language-out-there">COBOL — The Hottest Programming Language Out There — May 03, 2020</a></li><li><a target="_blank" href="https://spiderpig86.github.io/blog//seattle.rain.corona">seattle. rain. corona. — April 12, 2020</a></li><li><a target="_blank" href="https://spiderpig86.github.io/blog//i-was-wrong-about-startup-meetups">i was wrong about startup meetups — August 29, 2019</a></li><li><a target="_blank" href="https://spiderpig86.github.io/blog//why-medium-needs-markdown">why medium needs markdown — July 04, 2019</a></li>
 </details>
+<p><a target="_blank" href="https://spiderpig86.github.io/blog/">Read More</a></p>
 <h2>🚀 Some Tools I Use</h2>
 <p align="left">
 <img src="https://konpa.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="25" height="25" />

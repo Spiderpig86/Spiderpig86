@@ -1,0 +1,37 @@
+name: Build README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+  
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+
+      strategy:
+        matrix:
+          node-version: [12.x]
+
+      steps:
+        - name: Checkout repo
+          uses: actions/checkout@v2
+        - name: Setup Node ${{ matrix.node-version }}
+          uses: actions/setup-node@v1
+          with:
+            node-version: ${{ matrix.node-version }}
+        - name: Install dependencies
+          run: npm ci
+        - name: Build README
+          run: |-
+            npm start
+            cat README.md
+        - name: Commit with diff
+          run: |-
+            git add .
+            git diff
+            git config --global user.email "readme-bot@stanleylim.me"
+            git config --global user.name "ReadMe Bot"
+            git commit -m ":sparkles: feat(README.md): Updated README" || echo "No changes detected"
+            git push

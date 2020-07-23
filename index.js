@@ -183,6 +183,7 @@ ${postsTitle}\n
     <summary>Explore</summary>
     ${posts}\n
 </details>\n
+<a target="_blank" href="https://spiderpig86.github.io/blog/">Read More</a>\n
 ${toolsTitle}\n
 <p align="left">\n
     ${tools}\n
