@@ -1,0 +1,24 @@
+{
+  "name": "spiderpig86",
+  "version": "1.0.0",
+  "description": "Personal README.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spiderpig86/Spiderpig86.git"
+  },
+  "author": "Stanley Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spiderpig86/Spiderpig86/issues"
+  },
+  "homepage": "https://github.com/Spiderpig86/Spiderpig86#readme",
+  "dependencies": {
+    "markdown-it": "^11.0.0",
+    "markdown-it-emoji": "^1.4.0"
+  }
+}
