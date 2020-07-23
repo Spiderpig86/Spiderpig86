@@ -8,6 +8,7 @@ const md = require('markdown-it')({
 });
 const mdEmoji = require('markdown-it-emoji');
 const fs = require('fs');
+const axios = require('axios').default;
 
 md.use(mdEmoji);
 
@@ -74,6 +75,8 @@ const factsConfigs = [
     `🎉 Fun Fact: 我也会讲中文。`,
 ];
 const facts = factsConfigs.reduce((result, fact) => result + `\n - ${fact}`, '');
+
+const postsTitle = generateTitle(2, `:black_nib: Recent Posts`)
 
 const toolsTitle = generateTitle(2, `:rocket: Some Tools I Use`)
 const toolsIconSize = 25;
@@ -157,22 +160,39 @@ const stats = `<img src="https://github-readme-stats.vercel.app/api?username=spi
 
 (async () => {
 
+    // Get blog entries
+    const response = await axios.get('https://spiderpig86.github.io/blog/page-data/index/page-data.json');
+    const postData = response.data.result.data.allMarkdownRemark.edges;
+    let posts = ``;
+    
+    postData.slice(0, Math.min(postData.length, 5)).map(post => {
+        const title = post.node.frontmatter.title;
+        const date = post.node.frontmatter.date;
+        const path = post.node.frontmatter.path;
+        posts += `<li><a target="_blank" href="https://spiderpig86.github.io/blog/${path}">${title} — ${date}</a></li>`;
+    });
+
     const content = `${introTitle}\n
 ${introDescription}\n
 ${badges}\n
 ${gif}\n
 ${factsTitle}\n
 ${facts}\n
+${postsTitle}\n
+<details>
+    <summary>Explore</summary>
+    ${posts}\n
+</details>\n
 ${toolsTitle}\n
 <p align="left">\n
     ${tools}\n
 </p>\n
-${stats}
+${stats}\n
 `;
 
     const markdownContent = md.render(content);
 
-    fs.writeFile('README2.md', markdownContent, (err) => {
+    fs.writeFile('README.md', markdownContent, (err) => {
         if (err) {
             return console.error(err);
         }
