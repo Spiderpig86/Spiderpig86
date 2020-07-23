@@ -7,7 +7,7 @@
 <li>🔭 I’m currently working on <a href="https://github.com/Spiderpig86/Cirrus">Cirrus</a>.</li>
 <li>🧐 Learning about <strong>serverless architectures</strong>, <strong>distributed systems</strong>, and a bit of <strong>ML</strong>.</li>
 <li>👨‍💻 Most of my projects are available on <a href="https://github.com/Spiderpig86">Github</a>.</li>
-<li>📝 I regulary write articles on <a href="https://spiderpig86.github.io/blog/">my blog</a>.</li>
+<li>📝 I regulary write articles on <a href="https://slim.netlify.app">my blog</a>.</li>
 <li>💬 Ping me about <strong>react, koa, security, and cloud stuff</strong>.</li>
 <li>📙 Check out my <a href="https://www.stanleylim.me/resume/resume.pdf">resume</a>.</li>
 <li>🎉 Fun Fact: 我也会讲中文。</li>
@@ -15,9 +15,9 @@
 <h2>✒️ Recent Posts</h2>
 <details>
     <summary>Explore</summary>
-    <li><a target="_blank" href="https://spiderpig86.github.io/blog//clickjacking-using-iframes-a-case-study">Clickjacking Using Iframes: A Case Study — July 12, 2020</a></li><li><a target="_blank" href="https://spiderpig86.github.io/blog//cobol---the-hottest-programming-language-out-there">COBOL — The Hottest Programming Language Out There — May 03, 2020</a></li><li><a target="_blank" href="https://spiderpig86.github.io/blog//seattle.rain.corona">seattle. rain. corona. — April 12, 2020</a></li><li><a target="_blank" href="https://spiderpig86.github.io/blog//i-was-wrong-about-startup-meetups">i was wrong about startup meetups — August 29, 2019</a></li><li><a target="_blank" href="https://spiderpig86.github.io/blog//why-medium-needs-markdown">why medium needs markdown — July 04, 2019</a></li>
+    <li><a target="_blank" href="https://slim.netlify.app/clickjacking-using-iframes-a-case-study">Clickjacking Using Iframes: A Case Study — July 12, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/cobol---the-hottest-programming-language-out-there">COBOL — The Hottest Programming Language Out There — May 03, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/seattle.rain.corona">seattle. rain. corona. — April 12, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/i-was-wrong-about-startup-meetups">i was wrong about startup meetups — August 29, 2019</a></li><li><a target="_blank" href="https://slim.netlify.app/why-medium-needs-markdown">why medium needs markdown — July 04, 2019</a></li>
 </details>
-<p><a target="_blank" href="https://spiderpig86.github.io/blog/">Read More</a></p>
+<p><a target="_blank" href="https://slim.netlify.app">Read More</a></p>
 <h2>🚀 Some Tools I Use</h2>
 <p align="left">
 <img src="https://konpa.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="25" height="25" />
