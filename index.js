@@ -1,7 +1,7 @@
 /**
  * README Generator
  */
-const md = require('markdown-it')({
+ const md = require('markdown-it')({
     html: true,
     linkify: true,
     breaks: true
@@ -84,75 +84,75 @@ const toolsTitle = generateTitle(2, `:rocket: Some Tools I Use`)
 const toolsIconSize = 25;
 const toolsConfig = [
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
         alt: 'react',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/angularjs/angularjs-original.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg',
         alt: 'angular-js',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg',
         alt: 'bootstrap',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg',
         alt: 'css3',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/gulp/gulp-plain.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg',
         alt: 'gulp',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg',
         alt: 'html5',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/java/java-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg',
         alt: 'java',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',
         alt: 'javascript',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/typescript/typescript-original.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg',
         alt: 'typescript',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
         alt: 'mongodb',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg',
         alt: 'mysql',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/redis/redis-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg',
         alt: 'redis',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg',
         alt: 'nodejs',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/python/python-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg',
         alt: 'python',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/nginx/nginx-original.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg',
         alt: 'nginx',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/cucumber/cucumber-plain.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/cucumber/cucumber-plain.svg',
         alt: 'cucumber',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/heroku/heroku-plain.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-plain.svg',
         alt: 'heroku',
     },
     {
-        src: 'https://konpa.github.io/devicon/devicon.git/icons/travis/travis-plain.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/travis/travis-plain.svg',
         alt: 'travis',
     },
 ];
