@@ -158,7 +158,7 @@ const toolsConfig = [
 ];
 const tools = toolsConfig.reduce((result, toolConfig) => result + '\n' + generateIcon(toolConfig, toolsIconSize), '');
 
-const stats = `<img src="https://github-readme-stats.vercel.app/api?username=spiderpig86&show_icons=true" alt="spiderpig86" />`;
+const stats = `<img src="https://github-readme-stats.vercel.app/api?username=spiderpig86&show_icons=true&count_private=true" alt="spiderpig86" />`;
 
 (async () => {
 
