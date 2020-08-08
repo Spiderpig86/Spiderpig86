@@ -155,6 +155,10 @@ const toolsConfig = [
         src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/travis/travis-plain.svg',
         alt: 'travis',
     },
+    {
+        src: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png',
+        alt: 'aws',
+    }
 ];
 const tools = toolsConfig.reduce((result, toolConfig) => result + '\n' + generateIcon(toolConfig, toolsIconSize), '');
 
