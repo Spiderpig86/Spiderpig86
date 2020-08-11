@@ -92,6 +92,10 @@ const toolsConfig = [
         alt: 'angular-js',
     },
     {
+        src: 'https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original-wordmark.svg',
+        alt: 'vue',
+    },
+    {
         src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg',
         alt: 'bootstrap',
     },
@@ -104,10 +108,6 @@ const toolsConfig = [
         alt: 'gulp',
     },
     {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg',
-        alt: 'html5',
-    },
-    {
         src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg',
         alt: 'java',
     },
@@ -118,6 +118,10 @@ const toolsConfig = [
     {
         src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg',
         alt: 'typescript',
+    },
+    {
+        src: 'https://devicons.github.io/devicon/devicon.git/icons/dot-net/dot-net-original-wordmark.svg',
+        alt: '.NET',
     },
     {
         src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
@@ -158,7 +162,19 @@ const toolsConfig = [
     {
         src: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png',
         alt: 'aws',
-    }
+    },
+    {
+        src: 'https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg',
+        alt: 'gcp',
+    },
+    {
+        src: 'https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg',
+        alt: 'Docker',
+    },
+    {
+        src: 'https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg',
+        alt: 'Kubernetes',
+    },
 ];
 const tools = toolsConfig.reduce((result, toolConfig) => result + '\n' + generateIcon(toolConfig, toolsIconSize), '');
 
