@@ -180,6 +180,8 @@ const tools = toolsConfig.reduce((result, toolConfig) => result + '\n' + generat
 
 const stats = `<img src="https://github-readme-stats.vercel.app/api?username=spiderpig86&show_icons=true&count_private=true" alt="spiderpig86" />`;
 
+const visitors = `![visitors](https://visitor-badge.glitch.me/badge?page_id=Spiderpig86.Spiderpig86)`;
+
 (async () => {
 
     // Get blog entries
@@ -211,6 +213,7 @@ ${toolsTitle}\n
     ${tools}\n
 </p>\n
 ${stats}\n
+${visitors}
 `;
 
     const markdownContent = md.render(content);
