@@ -15,7 +15,7 @@
 <h2>✒️ Recent Posts</h2>
 <details>
     <summary>Explore</summary>
-    <li><a target="_blank" href="https://slim.netlify.app/clickjacking-using-iframes-a-case-study">Clickjacking Using Iframes: A Case Study — July 12, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/cobol---the-hottest-programming-language-out-there">COBOL — The Hottest Programming Language Out There — May 03, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/seattle.rain.corona">seattle. rain. corona. — April 12, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/i-was-wrong-about-startup-meetups">i was wrong about startup meetups — August 29, 2019</a></li><li><a target="_blank" href="https://slim.netlify.app/why-medium-needs-markdown">why medium needs markdown — July 04, 2019</a></li>
+    <li><a target="_blank" href="https://slim.netlify.app/pitfalls-of-the-singleton-bean">Pitfalls of the Singleton Bean — October 11, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/clickjacking-using-iframes-a-case-study">Clickjacking Using Iframes: A Case Study — July 12, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/cobol---the-hottest-programming-language-out-there">COBOL — The Hottest Programming Language Out There — May 03, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/seattle.rain.corona">seattle. rain. corona. — April 12, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/i-was-wrong-about-startup-meetups">i was wrong about startup meetups — August 29, 2019</a></li>
 </details>
 <p><a target="_blank" href="https://slim.netlify.app">Read More</a></p>
 <h2>🚀 Some Tools I Use</h2>
