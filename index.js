@@ -140,6 +140,10 @@ const toolsConfig = [
         alt: 'nodejs',
     },
     {
+        src: 'https://www.vectorlogo.zone/logos/springio/springio-icon.svg',
+        alt: 'spring',
+    },
+    {
         src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg',
         alt: 'python',
     },
