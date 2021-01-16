@@ -92,7 +92,7 @@ const toolsConfig = [
         alt: 'angular-js',
     },
     {
-        src: 'https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg',
         alt: 'vue',
     },
     {
@@ -120,11 +120,11 @@ const toolsConfig = [
         alt: 'typescript',
     },
     {
-        src: 'https://devicons.github.io/devicon/devicon.git/icons/dot-net/dot-net-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg',
         alt: '.NET',
     },
     {
-        src: 'https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg',
         alt: 'mongodb',
     },
     {
@@ -172,7 +172,7 @@ const toolsConfig = [
         alt: 'gcp',
     },
     {
-        src: 'https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg',
+        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg',
         alt: 'Docker',
     },
     {
