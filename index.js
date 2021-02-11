@@ -12,7 +12,7 @@ const axios = require('axios').default;
 
 md.use(mdEmoji);
 
-const BLOG_HOST = `https://slim.netlify.app`;
+const BLOG_HOST = `https://blog.stanleylim.me`;
 
 /* README Sections */
 const introTitle = generateTitle(2, `Hey :wave:, I'm ${generateLink('Stanley', 'https://stanleylim.me/')}`);
