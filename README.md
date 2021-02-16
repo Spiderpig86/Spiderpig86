@@ -7,7 +7,7 @@
 <li>🔭 I’m currently working on <a href="https://github.com/Spiderpig86/Cirrus">Cirrus</a>.</li>
 <li>🧐 Learning about <strong>serverless architectures</strong>, <strong>distributed systems</strong>, and a bit of <strong>ML</strong>.</li>
 <li>👨‍💻 Most of my projects are available on <a href="https://github.com/Spiderpig86">Github</a>.</li>
-<li>📝 I regulary write articles on <a href="https://slim.netlify.app">my blog</a>.</li>
+<li>📝 I regulary write articles on <a href="https://blog.stanleylim.me">my blog</a>.</li>
 <li>💬 Ping me about <strong>react, koa, security, and cloud stuff</strong>.</li>
 <li>📙 Check out my <a href="https://www.stanleylim.me/resume/resume.pdf">resume</a>.</li>
 <li>🎉 Fun Fact: 我也会讲中文。</li>
@@ -15,9 +15,9 @@
 <h2>✒️ Recent Posts</h2>
 <details>
     <summary>Explore</summary>
-    <li><a target="_blank" href="https://slim.netlify.app/github1s---instantly-browse-projects-on-vscode-in-your-browser">Github1s - Instantly Browse Projects on VSCode in Your Browser ⚡ — February 10, 2021</a></li><li><a target="_blank" href="https://slim.netlify.app/extensions-google-chrome's-soft-underbelly-(part-2)">Extensions: Google Chrome's Soft Underbelly (Part 2) — February 07, 2021</a></li><li><a target="_blank" href="https://slim.netlify.app/extensions-google-chrome's-soft-underbelly-(part-1)">Extensions Google Chrome's Soft Underbelly (Part 1) — January 07, 2021</a></li><li><a target="_blank" href="https://slim.netlify.app/finally-featured-on-producthunt---lessons-learned">Finally Featured on ProductHunt — Lessons Learned — November 18, 2020</a></li><li><a target="_blank" href="https://slim.netlify.app/pitfalls-of-the-singleton-bean">Pitfalls of the Singleton Bean — October 11, 2020</a></li>
+    <li><a target="_blank" href="https://blog.stanleylim.me/github1s---instantly-browse-projects-on-vscode-in-your-browser">Github1s - Instantly Browse Projects on VSCode in Your Browser ⚡ — February 10, 2021</a></li><li><a target="_blank" href="https://blog.stanleylim.me/extensions-google-chrome's-soft-underbelly-(part-2)">Extensions: Google Chrome's Soft Underbelly (Part 2) — February 07, 2021</a></li><li><a target="_blank" href="https://blog.stanleylim.me/extensions-google-chrome's-soft-underbelly-(part-1)">Extensions Google Chrome's Soft Underbelly (Part 1) — January 07, 2021</a></li><li><a target="_blank" href="https://blog.stanleylim.me/finally-featured-on-producthunt---lessons-learned">Finally Featured on ProductHunt — Lessons Learned — November 18, 2020</a></li><li><a target="_blank" href="https://blog.stanleylim.me/pitfalls-of-the-singleton-bean">Pitfalls of the Singleton Bean — October 11, 2020</a></li>
 </details>
-<p><a target="_blank" href="https://slim.netlify.app">Read More</a></p>
+<p><a target="_blank" href="https://blog.stanleylim.me">Read More</a></p>
 <h2>🚀 Some Tools I Use</h2>
 <p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="25" height="25" />
