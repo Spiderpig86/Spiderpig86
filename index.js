@@ -1,7 +1,7 @@
 /**
  * README Generator
  */
- const md = require('markdown-it')({
+const md = require('markdown-it')({
     html: true,
     linkify: true,
     breaks: true
@@ -16,13 +16,12 @@ const BLOG_HOST = `https://blog.stanleylim.me`;
 
 /* README Sections */
 const introTitle = generateTitle(2, `Hey :wave:, I'm ${generateLink('Stanley', 'https://stanleylim.me/')}`);
-const introDescription = `I'm currently a software engineer **${generateLink(
-    '@aws',
+const introDescription = `I'm currently a software engineer at **${generateLink('Snapchat', 'https://www.snapchat.com/')}** and formerly at **${generateLink(
+    'AWS',
     'https://aws.amazon.com/'
 )}** based in 🌁 Seattle. I am working on some side projects, learning a couple new dishes, and trying to conquer the world as Tannu Tuva in HOI4.`;
 
-const badgeConfigs = [
-    {
+const badgeConfigs = [{
         name: 'Website',
         badgeText: 'stanleylim.me',
         labelBgColor: '4E69C8',
@@ -82,8 +81,7 @@ const postsTitle = generateTitle(2, `:black_nib: Recent Posts`)
 
 const toolsTitle = generateTitle(2, `:rocket: Some Tools I Use`)
 const toolsIconSize = 25;
-const toolsConfig = [
-    {
+const toolsConfig = [{
         src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
         alt: 'react',
     },
@@ -192,7 +190,7 @@ const visitors = `![visitors](https://visitor-badge.glitch.me/badge?page_id=Spid
     const response = await axios.get(`${BLOG_HOST}/page-data/index/page-data.json`);
     const postData = response.data.result.data.allMarkdownRemark.edges;
     let posts = ``;
-    
+
     postData.slice(0, Math.min(postData.length, 5)).map(post => {
         const title = post.node.frontmatter.title;
         const date = post.node.frontmatter.date;
