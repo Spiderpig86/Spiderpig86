@@ -177,6 +177,10 @@ const toolsConfig = [{
         src: 'https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg',
         alt: 'Kubernetes',
     },
+    {
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
+        alt: 'Go',
+    },
 ];
 const tools = toolsConfig.reduce((result, toolConfig) => result + '\n' + generateIcon(toolConfig, toolsIconSize), '');
 
