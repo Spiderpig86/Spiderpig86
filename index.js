@@ -21,6 +21,16 @@ const introDescription = `I'm currently a software engineer at **${generateLink(
     'https://aws.amazon.com/'
 )}** based in 🌁 Seattle. I am working on some side projects, learning a couple new dishes, and trying to conquer the world as Tannu Tuva in HOI4.`;
 
+const notice = `
+${generateTitle(2, `📢📢 Announcements 📢📢`)}
+Did that capture your attention? Good.\n
+I just wanted to let you know that this year I've been nominated for 2 Noonie awards hosted by ${generateLink('Hackernoon', 'https://noonies.tech/')}:\n
+* ${generateLink('Hackernoon Contributor of the Year - Angular', 'https://noonies.tech/award/2021-hackernoon-contributor-of-the-year-angular')}\n
+* ${generateLink('Hackernoon Contributor of the Year - WebDev', 'https://noonies.tech/award/2021-hackernoon-contributor-of-the-year-webdev')}\n\n
+Hackernoon is a great platform where I publish my blog posts to. I would **greatly** appreciate it if you vote for me for these awards. More details will come soon, but voting starts on **November 15th, 2021** and ends **December 8th, 2021**.\n\n
+Anyway, thanks for visiting my Github profile!
+`
+
 const badgeConfigs = [{
         name: 'Website',
         badgeText: 'stanleylim.me',
@@ -205,6 +215,7 @@ const visitors = `![visitors](https://visitor-badge.glitch.me/badge?page_id=Spid
     const content = `${introTitle}\n
 ${introDescription}\n
 ${badges}\n
+${notice}\n
 ${gif}\n
 ${factsTitle}\n
 ${facts}\n
