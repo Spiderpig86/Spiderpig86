@@ -188,7 +188,9 @@ const tools = toolsConfig.reduce((result, toolConfig) => result + '\n' + generat
 
 const stats = `<img src="https://github-readme-stats.vercel.app/api?username=spiderpig86&show_icons=true&count_private=true" alt="spiderpig86" />`;
 
-const visitors = `![visitors](https://visitor-badge.glitch.me/badge?page_id=Spiderpig86.Spiderpig86)`;
+// Count is down, will they ever recover from this catastrophe? https://github.com/jwenjian/visitor-badge/issues/32
+// const visitors = `![visitors](https://visitor-badge.glitch.me/badge?page_id=Spiderpig86.Spiderpig86)`;
+const visitors = `[![HitCount](https://hits.dwyl.com/spiderpig86/spiderpig86/spiderpig86.svg?style=flat-square)](http://hits.dwyl.com/spiderpig86/spiderpig86/spiderpig86)`;
 
 (async () => {
 
