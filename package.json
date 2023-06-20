@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Spiderpig86/Spiderpig86#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "markdown-it": "^11.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-emoji": "^1.4.0"
   }
 }
