@@ -72,7 +72,7 @@ const factsConfigs = [
     `🔭 I’m currently working on [Cirrus](https://github.com/Spiderpig86/Cirrus).`,
     `🧐 Learning about **serverless architectures**, **distributed systems**, and a bit of **ML**.`,
     `👨‍💻 Most of my projects are available on [Github](https://github.com/Spiderpig86).`,
-    `📝 I <del>regulary</del> write articles on [my blog](${BLOG_HOST}).`,
+    `📝 I <del>regularly</del> write articles on [my blog](${BLOG_HOST}).`,
     `💬 Ping me about **react, koa, security, and cloud stuff**.`,
     `📙 Check out my [resume](https://www.stanleylim.me/resume/resume.pdf).`,
     `🎉 Fun Fact: 我也会讲中文。`,
