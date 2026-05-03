@@ -242,7 +242,7 @@ function generateBadge(badgeConfig) {
 }
 
 function generateIcon(iconConfig, toolsIconSize) {
-    return `<img src="${iconConfig.src}" alt="${iconConfig.alt}" width="${toolsIconSize}" height="${toolsIconSize}" />`;
+    return `<img src="${iconConfig.src}" alt="${iconConfig.alt}" width="${toolsIconSize}" />`;
 }
 
 function generateTitle(size, title) {
